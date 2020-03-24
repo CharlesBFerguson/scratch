@@ -1,0 +1,18 @@
+div {
+  width: 100px;
+  height: 100px;
+  background-color: darkgoldenrod;
+  border: 1px solid black;
+  text-align: center;
+  transition: 0.75s;
+  /* moving transition time to div:hover will "snap" back */
+}
+
+div:hover {
+  /* transition: 0.5s; */
+  /* moving transition time to div will "roll" back */
+  transform: translate(50px, 20px) skew(-20deg, -20deg) rotateZ(90deg);
+  color: #fff;
+  background-color: darkgreen;
+  padding-top: 60px;
+}

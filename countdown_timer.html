@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Countdown Timer</title>
+  <link rel="stylesheet" href="countdown_timer.css">
+</head>
+
+<!--  Exercise countdown
+      - create a countdown timer
+      - countdown from a number to 0
+      - it needs to be visible counts -->
+
+<!--Set a valid end date.
+    - Calculate the time remaining.
+    - Convert the time to a usable format.
+    - Output the clock data as a reusable object.
+    - Display the clock on the page, and stop the clock when it reaches zero -->
+
+<body>
+  <form action="/action_page.php">
+    <h1>Countdown Timer</h1>
+    <p>
+      <h3>
+        Choose a Starting Time:
+      </h3>
+    </p>
+    <input type="radio" id="startFromNow" name="startChoice" value= >
+    <label for="male">5 seconds from now</label><br>
+    <input type="radio" id="startChoose" name="startChoice" value= >
+    <label for="female">Choose start time</label><br>
+    <!-- enter or omit values above -->
+
+    <!-- <input id="userInput"></input>    <button onClick="randomCheck()">Start</button>
+    <p/>(Dynamic text here)</p> -->
+    
+    <p id="counter"></p>
+  </form>
+
+  <script src="countdown_timer.js"></script>
+</body>
+
+</html>
