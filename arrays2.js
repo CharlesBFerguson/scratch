@@ -1,4 +1,4 @@
-let customerOrder = "Burger:3, nuggets:1, Shake:4" // String
+let customerOrder = "Burger:3, nuggets:1, Shake:4"; // String
 customerOrder = customerOrder.toLowerCase(); // String
 customerOrder = customerOrder.split(','); //now Array - can chain .split above instead
 customerOrder = customerOrder.join(''); // now String
